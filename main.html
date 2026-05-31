@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sankt Caorle - Schutzpatron der Hausmeister</title>
+    <style>
+        :root {
+            --primary: #8B0000; /* Sakrales Dunkelrot */
+            --secondary: #D4AF37; /* Gold */
+            --bg: #fdfbf7; /* Altes Papier-Weiß */
+            --text: #2c2c2c;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: var(--primary);
+            color: white;
+            text-align: center;
+            padding: 3rem 1rem;
+            border-bottom: 5px solid var(--secondary);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+            font-weight: normal;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            font-style: italic;
+            color: var(--secondary);
+            margin-top: 0.5rem;
+            font-size: 1.2rem;
+        }
+
+        nav {
+            background: #1a1a1a;
+            text-align: center;
+            padding: 0.5rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        nav a:hover {
+            color: var(--secondary);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+
+        section {
+            margin-bottom: 4rem;
+            background: white;
+            padding: 2.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            border-left: 4px solid var(--primary);
+        }
+
+        h2 {
+            color: var(--primary);
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 0.5rem;
+            font-size: 2rem;
+        }
+
+        /* Bild-Styling für das Relikt */
+        .image-container {
+            text-align: center;
+            margin: 2rem 0;
+            background: #f9f9f9;
+            padding: 1.5rem;
+            border: 2px dashed var(--secondary);
+            border-radius: 4px;
+        }
+
+        .relic-image {
+            max-width: 100%;
+            height: auto;
+            max-height: 500px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            border: 8px solid white;
+        }
+
+        .image-caption {
+            font-style: italic;
+            margin-top: 1rem;
+            color: #555;
+            font-size: 0.95rem;
+        }
+
+        .highlight-box {
+            background-color: #fcf8e3;
+            border: 1px solid #fbeed5;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 4px;
+            font-style: italic;
+        }
+
+        .grid-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        @media (max-width: 600px) {
+            .grid-list { grid-template-columns: 1fr; }
+            header h1 { font-size: 2rem; }
+        }
+
+        footer {
+            background: #1a1a1a;
+            color: #888;
+            text-align: center;
+            padding: 2rem;
+            font-size: 0.85rem;
+            border-top: 3px solid var(--primary);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sankt Caorle</h1>
+        <p>„Der adrette Caorle“ – Schutzpatron der universellen Ordnung, der Kehrwoche und des Facility Management</p>
+    </header>
+
+    <nav>
+        <a href="#vita">Die Vita</a>
+        <a href="#namenspatron">Die Stadt Caorle</a>
+        <a href="#relikt">Das göttliche Bildnis</a>
+        <a href="#wunder">Wunder & Patronat</a>
+    </nav>
+
+    <div class="container">
+
+        <!-- Sektion 1: Die Vita -->
+        <section id="vita">
+            <h2>Die Legende des adretten Caorle</h2>
+            <p>Es geschah im frühen Mittelalter, als das Chaos über die Siedlungen der oberen Adria hereinbrach. Quietschende Scharniere, verstopfte Aquädukte und unbeseitigte Laubberge bedrohten den inneren Frieden der Gemeinden. In dieser finsteren Epoche trat ein Mann namens <strong>Caorle</strong> hervor.</p>
+            <p>Er war stets von makelloser Erscheinung. Während andere im Schlamm arbeiteten, bewahrte Caorle ein stets gepflegtes Äußeres, glänzendes Haar und ein einladendes Lächeln – was ihm in den Chroniken der Erzdiözese den Beinamen <em>„Der adrette Caorle“</em> einbrachte.</p>
+            <div class="highlight-box">
+                „Und er nahm den Besen in die rechte Hand, die Ölkanne in die linke, und sprach: Es werde geölt, auf dass kein Quietschen die Andacht störe.“ <br>– Chronika Instandhaltica, Vers IV
+            </div>
+            <p>Caorle zog von Kloster zu Kloster, reparierte die Schlösser der Pforten, regulierte die Fußbodenheizungen der Thermen und sorgte dafür, dass die Mülltrennung der Mönche fehlerfrei funktionierte. Seine Askese bestand darin, niemals einen Krümel auf dem Teppich zu dulden.</p>
+        </section>
+
+        <!-- Sektion 2: Das göttliche Bildnis -->
+        <section id="relikt">
+            <h2>Das erhaltene Bildnis (Das Relikt)</h2>
+            <p>Jahrhundertelang galt das wahre Antlitz des Heiligen als verschollen. Doch bei Ausgrabungen in einem geheimen Kellerabteil (hinter einigen alten Winterreifen und einer Kiste ausrangierter Glühbirnen) wurde dieses unschätzbare Zeugnis der Frömmigkeit wiederentdeckt:</p>
+            
+            <div class="image-container">
+                <!-- Einbindung der spezifischen Datei -->
+                <img src="17802151287858065332457947545012_b2ee05.jpg" alt="Der adrette Caorle" class="relic-image">
+                <div class="image-caption">
+                    <strong>Abbildung 1:</strong> Das authentische, jahrhunderteüberdauernde Bildnis „Der adrette Caorle“. Man beachte die zeitlose Eleganz, die akkurate Frisur und die Aura absoluter Zuverlässigkeit beim Ausfüllen von Übergabeprotokollen.
+                </div>
+            </div>
+            
+            <p>Das Bild zeigt den Heiligen in seiner charakteristischen, adretten Garderobe. Die Unterschrift wurde von gläubigen Hausmeistern des 14. Jahrhunderts mit akribischen Schriftsetzer-Lettern hinzugefügt, um jeden Zweifel an seiner Identität auszuschließen.</p>
+        </section>
+
+        <!-- Sektion 3: Namenspatron für die Stadt Caorle -->
+        <section id="namenspatron">
+            <h2>Die Gründung von Caorle (Italien)</h2>
+            <p>Die wunderschöne Küstenstadt <strong>Caorle</strong> an der italienischen Adria verdankt ihren Namen einzig und allein diesem großen Mann. Die Legende besagt, dass die ersten Siedler die Lagune völlig verschmutzt vorfanden. Algen, Treibholz und wild umherliegende Gondeln machten ein Leben unmöglich.</p>
+            <p>Da erschien der adrette Caorle. Er krempelte die Ärmel hoch, fegte die Strände in exakt parallelen Bahnen und strich die Häuser der Stadt in leuchtenden, bunten Farben an, damit man Schmutz sofort erkennen konnte. Die dankbaren Einwohner nannten ihre Stadt fortan nach ihm und erklärten die Farbpalette ihrer Hauswände zum Staatsgeheimnis.</p>
+        </section>
+
+        <!-- Sektion 4: Wunder und Patronat -->
+        <section id="wunder">
+            <h2>Zuständigkeiten und anerkannte Wunder</h2>
+            <p>Sankt Caorle wurde im Jahr 1642 offiziell heiliggesprochen, nachdem die Kongregation für die Riten drei unbestreitbare Wunder anerkannte:</p>
+            
+            <div class="grid-list">
+                <div>
+                    <h3>Das Wunder vom Universalschlüssel</h3>
+                    <p>Es wird berichtet, dass Caorle einst mit einem einzigen, abgebrochenen Stück Draht 45 blockierte Brandschutztüren öffnete, um eingesperrte Handwerker zu retten – ohne einen einzigen Kratzer im Lack zu hinterlassen.</p>
+                </div>
+                <div>
+                    <h3>Die wundersame Rohrreinigung</h3>
+                    <p>Als die Hauptabwasserleitung des Vatikans zu verstopfen drohte und alle Klempner verzweifelten, reichte ein strenger Blick des adretten Caorle, woraufhin sich die Blockade aus purer Ehrfurcht von selbst auflöste.</p>
+                </div>
+            </div>
+
+            <h3>Heute ist Sankt Caorle der Schutzpatron für:</h3>
+            <ul>
+                <li>Hausmeister, Facility Manager und Gebäudetechniker</li>
+                <li>Das akkurate Ausstellen von Mängelberichten</li>
+                <li>Das korrekte Einhalten der Mittagsruhe beim Rasenmähen</li>
+                <li>Die adrette Kleidung auch bei schweren handwerklichen Tätigkeiten</li>
+            </ul>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Erzbruderschaft des adretten Caorle e.V. | Alle Rechte und Schlüsselgewalten vorbehalten.</p>
+        <p style="font-size: 0.7rem; color: #555;">Diese Webseite ist ein fiktives Denkmal für einen großen Ordnungshüter.</p>
+    </footer>
+
+</body>
+</html>
